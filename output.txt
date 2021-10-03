@@ -1,100 +1,100 @@
-n = 1, throughput = 5.446809 Mb/s
-n = 2, throughput = 5.201247 Mb/s
-n = 3, throughput = 4.992317 Mb/s
-n = 4, throughput = 4.828144 Mb/s
-n = 5, throughput = 4.697604 Mb/s
-n = 6, throughput = 4.590940 Mb/s
-n = 7, throughput = 4.501356 Mb/s
-n = 8, throughput = 4.424310 Mb/s
-n = 9, throughput = 4.356749 Mb/s
-n = 10, throughput = 4.296545 Mb/s
-n = 11, throughput = 4.242205 Mb/s
-n = 12, throughput = 4.192620 Mb/s
-n = 13, throughput = 4.146978 Mb/s
-n = 14, throughput = 4.104643 Mb/s
-n = 15, throughput = 4.065124 Mb/s
-n = 16, throughput = 4.028033 Mb/s
-n = 17, throughput = 3.993050 Mb/s
-n = 18, throughput = 3.959927 Mb/s
-n = 19, throughput = 3.928443 Mb/s
-n = 20, throughput = 3.898421 Mb/s
-n = 21, throughput = 3.869717 Mb/s
-n = 22, throughput = 3.842194 Mb/s
-n = 23, throughput = 3.815747 Mb/s
-n = 24, throughput = 3.790280 Mb/s
-n = 25, throughput = 3.765707 Mb/s
-n = 26, throughput = 3.741959 Mb/s
-n = 27, throughput = 3.718972 Mb/s
-n = 28, throughput = 3.696689 Mb/s
-n = 29, throughput = 3.675063 Mb/s
-n = 30, throughput = 3.654036 Mb/s
-n = 31, throughput = 3.633581 Mb/s
-n = 32, throughput = 3.613654 Mb/s
-n = 33, throughput = 3.594229 Mb/s
-n = 34, throughput = 3.575271 Mb/s
-n = 35, throughput = 3.556750 Mb/s
-n = 36, throughput = 3.538646 Mb/s
-n = 37, throughput = 3.520930 Mb/s
-n = 38, throughput = 3.503589 Mb/s
-n = 39, throughput = 3.486605 Mb/s
-n = 40, throughput = 3.469951 Mb/s
-n = 41, throughput = 3.453613 Mb/s
-n = 42, throughput = 3.437579 Mb/s
-n = 43, throughput = 3.421835 Mb/s
-n = 44, throughput = 3.406369 Mb/s
-n = 45, throughput = 3.391164 Mb/s
-n = 46, throughput = 3.376216 Mb/s
-n = 47, throughput = 3.361504 Mb/s
-n = 48, throughput = 3.347028 Mb/s
-n = 49, throughput = 3.332773 Mb/s
-n = 50, throughput = 3.318735 Mb/s
-n = 51, throughput = 3.304893 Mb/s
-n = 52, throughput = 3.291256 Mb/s
-n = 53, throughput = 3.277806 Mb/s
-n = 54, throughput = 3.264545 Mb/s
-n = 55, throughput = 3.251452 Mb/s
-n = 56, throughput = 3.238539 Mb/s
-n = 57, throughput = 3.225786 Mb/s
-n = 58, throughput = 3.213193 Mb/s
-n = 59, throughput = 3.200757 Mb/s
-n = 60, throughput = 3.188462 Mb/s
-n = 61, throughput = 3.176318 Mb/s
-n = 62, throughput = 3.164310 Mb/s
-n = 63, throughput = 3.152447 Mb/s
-n = 64, throughput = 3.140709 Mb/s
-n = 65, throughput = 3.129099 Mb/s
-n = 66, throughput = 3.117613 Mb/s
-n = 67, throughput = 3.106248 Mb/s
-n = 68, throughput = 3.094992 Mb/s
-n = 69, throughput = 3.083860 Mb/s
-n = 70, throughput = 3.072841 Mb/s
-n = 71, throughput = 3.061917 Mb/s
-n = 72, throughput = 3.051113 Mb/s
-n = 73, throughput = 3.040402 Mb/s
-n = 74, throughput = 3.029793 Mb/s
-n = 75, throughput = 3.019277 Mb/s
-n = 76, throughput = 3.008862 Mb/s
-n = 77, throughput = 2.998534 Mb/s
-n = 78, throughput = 2.988302 Mb/s
-n = 79, throughput = 2.978157 Mb/s
-n = 80, throughput = 2.968095 Mb/s
-n = 81, throughput = 2.958115 Mb/s
-n = 82, throughput = 2.948221 Mb/s
-n = 83, throughput = 2.938407 Mb/s
-n = 84, throughput = 2.928674 Mb/s
-n = 85, throughput = 2.919009 Mb/s
-n = 86, throughput = 2.909423 Mb/s
-n = 87, throughput = 2.899911 Mb/s
-n = 88, throughput = 2.890476 Mb/s
-n = 89, throughput = 2.881106 Mb/s
-n = 90, throughput = 2.871803 Mb/s
-n = 91, throughput = 2.862571 Mb/s
-n = 92, throughput = 2.853406 Mb/s
-n = 93, throughput = 2.844304 Mb/s
-n = 94, throughput = 2.835260 Mb/s
-n = 95, throughput = 2.826287 Mb/s
-n = 96, throughput = 2.817374 Mb/s
-n = 97, throughput = 2.808516 Mb/s
-n = 98, throughput = 2.799717 Mb/s
-n = 99, throughput = 2.790984 Mb/s
-n = 100, throughput = 2.782303 Mb/s
+1	5.446809
+2	5.201247
+3	4.992317
+4	4.828144
+5	4.697604
+6	4.590940
+7	4.501356
+8	4.424310
+9	4.356749
+10	4.296545
+11	4.242205
+12	4.192620
+13	4.146978
+14	4.104643
+15	4.065124
+16	4.028033
+17	3.993050
+18	3.959927
+19	3.928443
+20	3.898421
+21	3.869717
+22	3.842194
+23	3.815747
+24	3.790280
+25	3.765707
+26	3.741959
+27	3.718972
+28	3.696689
+29	3.675063
+30	3.654036
+31	3.633581
+32	3.613654
+33	3.594229
+34	3.575271
+35	3.556750
+36	3.538646
+37	3.520930
+38	3.503589
+39	3.486605
+40	3.469951
+41	3.453613
+42	3.437579
+43	3.421835
+44	3.406369
+45	3.391164
+46	3.376216
+47	3.361504
+48	3.347028
+49	3.332773
+50	3.318735
+51	3.304893
+52	3.291256
+53	3.277806
+54	3.264545
+55	3.251452
+56	3.238539
+57	3.225786
+58	3.213193
+59	3.200757
+60	3.188462
+61	3.176318
+62	3.164310
+63	3.152447
+64	3.140709
+65	3.129099
+66	3.117613
+67	3.106248
+68	3.094992
+69	3.083860
+70	3.072841
+71	3.061917
+72	3.051113
+73	3.040402
+74	3.029793
+75	3.019277
+76	3.008862
+77	2.998534
+78	2.988302
+79	2.978157
+80	2.968095
+81	2.958115
+82	2.948221
+83	2.938407
+84	2.928674
+85	2.919009
+86	2.909423
+87	2.899911
+88	2.890476
+89	2.881106
+90	2.871803
+91	2.862571
+92	2.853406
+93	2.844304
+94	2.835260
+95	2.826287
+96	2.817374
+97	2.808516
+98	2.799717
+99	2.790984
+100	2.782303

@@ -103,7 +103,7 @@ int main(int argc, char **argv)
     }
 
     double throughput = getThroughput(n);
-    fprintf(fp, "n = %d, throughput = %f Mb/s\n", n, throughput);
+    fprintf(fp, "%d\t%f\n", n, throughput);
     fclose(fp);
     return 0;
 }
