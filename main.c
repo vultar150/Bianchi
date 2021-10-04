@@ -34,7 +34,7 @@ double tau(double p)
     double numerator = 0;
     double denominator = 0;
 
-    for (uint32_t i = 0; i <= retry; i++) {
+    for (uint32_t i = 0; i <= retry - 1; i++) {
         double p_pow_i = pow(p, i);
         numerator += p_pow_i;
         uint32_t w_i = (cwmin + 1) * (1 << i); // cwmin * 2^i
