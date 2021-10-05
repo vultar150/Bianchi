@@ -6,7 +6,7 @@
 #define INVALID_ARGS -1
 
 const double EPS = 1e-6;
-const char * output_file = "../output.txt";
+const char * output_file = "../output2.txt";
 const char * file_mode = "a";
 
 const uint32_t cwmin = 15; // 2^4-1
@@ -31,15 +31,13 @@ int32_t parse_args(int argc, char **argv)
 
 double tau(double p)
 {
-    double numerator = 0;
+    double numerator = (1. - pow(p, retry)) / (1 - p);
     double denominator = 0;
 
     for (uint32_t i = 0; i <= retry - 1; i++) {
-        double p_pow_i = pow(p, i);
-        numerator += p_pow_i;
         uint32_t w_i = (cwmin + 1) * (1 << i); // cwmin * 2^i
         if (w_i > (cwmax + 1)) { w_i = cwmax + 1; }
-        denominator += p_pow_i * (((double) w_i + 1.0) / 2.0);
+        denominator += pow(p, i) * ((w_i + 1.0) / 2.0);
     }
     return numerator / denominator;
 }
@@ -58,12 +56,17 @@ double solve_eq(double p, int32_t n)
 double get_tau(int32_t n)
 {
     /* Bisection method */
-    double p_l = 0.;
+    double p_l = 0;
     double p_r = 1.;
 
     while (p_r - p_l > EPS) {
         double p_c = (p_r + p_l) / 2.;
-        if (solve_eq(p_l, n) * solve_eq(p_c, n) < 0) {
+        double eq_l = solve_eq(p_l, n);
+        double eq_c = solve_eq(p_c, n);
+        if (eq_l > -EPS && eq_l < EPS) {
+            return tau(p_l);
+        } 
+        if (eq_l * eq_c < 0) {
             p_r = p_c;
         } else {
             p_l = p_c;
@@ -74,13 +77,9 @@ double get_tau(int32_t n)
 
 double getThroughput(int32_t n)
 {
-    if (n == 1) {
-        double Tavg = Ts + (cwmin / 2.) * Te;
-        return 8. * L / Tavg;
-    }
     double tau = get_tau(n);
     double pe = pow(1. - tau, n);
-    double ps = tau * (double) n * pow(1. - tau, n - 1); 
+    double ps = tau * n * pow(1. - tau, n - 1); 
     double pc = 1. - pe - ps;
     double Tavg = Te * pe + Ts * ps + Tc * pc;
     double S = 8. * L * ps / Tavg;
